@@ -1,0 +1,66 @@
+﻿Build started 02.06.2015 23:34:45.
+     1>Project "D:\Users_Folders\Volodymyr_Main\Documents\Visual Studio 2013\Projects\Test\Course Work\Course Work\Course Work.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib GeneticSalesman.cpp Main.cpp
+         GeneticSalesman.cpp
+     1>GeneticSalesman.cpp(70): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GeneticSalesman.cpp(74): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>GeneticSalesman.cpp(164): warning C4018: '<' : signed/unsigned mismatch
+     1>GeneticSalesman.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+     1>GeneticSalesman.cpp(405): warning C4101: 'left' : unreferenced local variable
+     1>GeneticSalesman.cpp(405): warning C4101: 'total' : unreferenced local variable
+     1>GeneticSalesman.cpp(467): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>GeneticSalesman.cpp(470): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>GeneticSalesman.cpp(472): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>GeneticSalesman.cpp(481): warning C4101: 'fi' : unreferenced local variable
+     1>GeneticSalesman.cpp(481): warning C4101: 'se' : unreferenced local variable
+         Main.cpp
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(439): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(441): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(444): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(446): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(451): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(468): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(487): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(489): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(492): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(494): warning C4305: '*=' : truncation from 'double' to 'float'
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(500): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(502): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(503): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(575): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(578): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(632): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(633): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(640): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(641): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(644): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(645): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(683): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(714): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(780): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(797): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(814): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(815): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(818): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(819): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(822): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\MainForm.h(823): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Main.cpp(7): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+         Generating Code...
+     1>d:\users_folders\volodymyr_main\documents\visual studio 2013\projects\test\course work\course work\geneticsalesman.cpp(69): warning C4700: uninitialized local variable 'ind1' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users_Folders\Volodymyr_Main\Documents\Visual Studio 2013\Projects\Test\Course Work\Debug\Course Work.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\CourseWork.AlgoOptionsForm.resources /ASSEMBLYRESOURCE:Debug\CourseWork.MenuForm.resources /ASSEMBLYRESOURCE:Debug\CourseWork.MainForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users_Folders\Volodymyr_Main\Documents\Visual Studio 2013\Projects\Test\Course Work\Debug\Course Work.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\GeneticSalesman.obj
+         Debug\Main.obj
+         Debug\my_random.obj
+         Debug\path_hash.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         Course Work.vcxproj -> D:\Users_Folders\Volodymyr_Main\Documents\Visual Studio 2013\Projects\Test\Course Work\Debug\Course Work.exe
+     1>Done Building Project "D:\Users_Folders\Volodymyr_Main\Documents\Visual Studio 2013\Projects\Test\Course Work\Course Work\Course Work.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.71
