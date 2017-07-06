@@ -1,4 +1,4 @@
-//
+ï»¿//
 // MenuForm.h
 //
 
@@ -132,30 +132,33 @@ namespace CourseWork {
 			// 
 			// btn_start
 			// 
-			this->btn_start->Location = System::Drawing::Point(15, 34);
+			this->btn_start->Location = System::Drawing::Point(10, 22);
+			this->btn_start->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_start->Name = L"btn_start";
-			this->btn_start->Size = System::Drawing::Size(217, 49);
+			this->btn_start->Size = System::Drawing::Size(145, 32);
 			this->btn_start->TabIndex = 0;
-			this->btn_start->Text = L"Ðîçïî÷àòè ïîøóê";
+			this->btn_start->Text = L"ÐÐ°Ñ‡Ð°Ñ‚ÑŒ Ð¿Ð¾Ð¸ÑÐº";
 			this->btn_start->UseVisualStyleBackColor = true;
 			this->btn_start->Click += gcnew System::EventHandler(this, &MyForm::btn_start_Click);
 			// 
 			// bigGraphField
 			// 
-			this->bigGraphField->Location = System::Drawing::Point(16, 35);
+			this->bigGraphField->Location = System::Drawing::Point(11, 23);
+			this->bigGraphField->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->bigGraphField->Name = L"bigGraphField";
-			this->bigGraphField->Size = System::Drawing::Size(800, 800);
+			this->bigGraphField->Size = System::Drawing::Size(533, 520);
 			this->bigGraphField->TabIndex = 1;
 			this->bigGraphField->TabStop = false;
 			this->bigGraphField->MouseClick += gcnew System::Windows::Forms::MouseEventHandler(this, &MyForm::bigGraphField_MouseClick);
 			// 
 			// btn_reset
 			// 
-			this->btn_reset->Location = System::Drawing::Point(15, 89);
+			this->btn_reset->Location = System::Drawing::Point(10, 58);
+			this->btn_reset->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_reset->Name = L"btn_reset";
-			this->btn_reset->Size = System::Drawing::Size(217, 49);
+			this->btn_reset->Size = System::Drawing::Size(145, 32);
 			this->btn_reset->TabIndex = 2;
-			this->btn_reset->Text = L"Çàâåðøèòè ïîøóê";
+			this->btn_reset->Text = L"Ð—Ð°Ð²ÐµÑ€ÑˆÐ¸Ñ‚ÑŒ Ð¿Ð¾Ð¸ÑÐº";
 			this->btn_reset->UseVisualStyleBackColor = true;
 			this->btn_reset->Click += gcnew System::EventHandler(this, &MyForm::btn_reset_Click);
 			// 
@@ -165,42 +168,46 @@ namespace CourseWork {
 			// 
 			// btn_openFile
 			// 
-			this->btn_openFile->Location = System::Drawing::Point(13, 91);
+			this->btn_openFile->Location = System::Drawing::Point(9, 59);
+			this->btn_openFile->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_openFile->Name = L"btn_openFile";
-			this->btn_openFile->Size = System::Drawing::Size(485, 49);
+			this->btn_openFile->Size = System::Drawing::Size(323, 32);
 			this->btn_openFile->TabIndex = 3;
-			this->btn_openFile->Text = L"Â³äêðèòè ãðàô ç ôàéëó";
+			this->btn_openFile->Text = L"ÐžÑ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ð³Ñ€Ð°Ñ„ Ð¸Ð· Ñ„Ð°Ð¹Ð»Ð°";
 			this->btn_openFile->UseVisualStyleBackColor = true;
 			this->btn_openFile->Click += gcnew System::EventHandler(this, &MyForm::btn_openFile_Click);
 			// 
 			// btn_clear
 			// 
-			this->btn_clear->Location = System::Drawing::Point(13, 31);
+			this->btn_clear->Location = System::Drawing::Point(9, 20);
+			this->btn_clear->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_clear->Name = L"btn_clear";
-			this->btn_clear->Size = System::Drawing::Size(485, 49);
+			this->btn_clear->Size = System::Drawing::Size(323, 32);
 			this->btn_clear->TabIndex = 4;
-			this->btn_clear->Text = L"Î÷èñòèòè ïîëå";
+			this->btn_clear->Text = L"ÐžÑ‡Ð¸ÑÑ‚Ð¸Ñ‚ÑŒ Ð¿Ð¾Ð»Ðµ";
 			this->btn_clear->UseVisualStyleBackColor = true;
 			this->btn_clear->Click += gcnew System::EventHandler(this, &MyForm::btn_clear_Click);
 			// 
 			// btn_pause
 			// 
-			this->btn_pause->Location = System::Drawing::Point(15, 33);
+			this->btn_pause->Location = System::Drawing::Point(10, 21);
+			this->btn_pause->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_pause->Name = L"btn_pause";
-			this->btn_pause->Size = System::Drawing::Size(217, 49);
+			this->btn_pause->Size = System::Drawing::Size(145, 32);
 			this->btn_pause->TabIndex = 5;
-			this->btn_pause->Text = L"Ïàóçà";
+			this->btn_pause->Text = L"ÐŸÐ°ÑƒÐ·Ð°";
 			this->btn_pause->UseVisualStyleBackColor = true;
 			this->btn_pause->Visible = false;
 			this->btn_pause->Click += gcnew System::EventHandler(this, &MyForm::btn_pause_Click);
 			// 
 			// btn_continue
 			// 
-			this->btn_continue->Location = System::Drawing::Point(15, 33);
+			this->btn_continue->Location = System::Drawing::Point(10, 21);
+			this->btn_continue->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_continue->Name = L"btn_continue";
-			this->btn_continue->Size = System::Drawing::Size(217, 49);
+			this->btn_continue->Size = System::Drawing::Size(145, 32);
 			this->btn_continue->TabIndex = 6;
-			this->btn_continue->Text = L"Ïðîäîâæèòè ïîøóê";
+			this->btn_continue->Text = L"ÐŸÑ€Ð¾Ð´Ð¾Ð»Ð¶Ð¸Ñ‚ÑŒ Ð¿Ð¾Ð¸ÑÐº";
 			this->btn_continue->UseVisualStyleBackColor = true;
 			this->btn_continue->Visible = false;
 			this->btn_continue->Click += gcnew System::EventHandler(this, &MyForm::btn_continue_Click);
@@ -208,56 +215,62 @@ namespace CourseWork {
 			// iterationsNumberDesc
 			// 
 			this->iterationsNumberDesc->AutoSize = true;
-			this->iterationsNumberDesc->Location = System::Drawing::Point(19, 34);
+			this->iterationsNumberDesc->Location = System::Drawing::Point(13, 22);
+			this->iterationsNumberDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->iterationsNumberDesc->Name = L"iterationsNumberDesc";
-			this->iterationsNumberDesc->Size = System::Drawing::Size(121, 20);
+			this->iterationsNumberDesc->Size = System::Drawing::Size(94, 13);
 			this->iterationsNumberDesc->TabIndex = 17;
-			this->iterationsNumberDesc->Text = L"Íîìåð ³òåðàö³¿:";
+			this->iterationsNumberDesc->Text = L"ÐÐ¾Ð¼ÐµÑ€ Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ð¸:";
 			// 
 			// elapsedTimeDesc
 			// 
 			this->elapsedTimeDesc->AutoSize = true;
-			this->elapsedTimeDesc->Location = System::Drawing::Point(185, 34);
+			this->elapsedTimeDesc->Location = System::Drawing::Point(135, 22);
+			this->elapsedTimeDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->elapsedTimeDesc->Name = L"elapsedTimeDesc";
-			this->elapsedTimeDesc->Size = System::Drawing::Size(135, 20);
+			this->elapsedTimeDesc->Size = System::Drawing::Size(111, 13);
 			this->elapsedTimeDesc->TabIndex = 18;
-			this->elapsedTimeDesc->Text = L"Âèòðà÷åíèé ÷àñ:";
+			this->elapsedTimeDesc->Text = L"ÐŸÐ¾Ñ‚Ñ€Ð°Ñ‡ÐµÐ½Ð½Ð¾Ðµ Ð²Ñ€ÐµÐ¼Ñ:";
 			// 
 			// iterationsNumberVal
 			// 
 			this->iterationsNumberVal->AutoSize = true;
-			this->iterationsNumberVal->Location = System::Drawing::Point(140, 34);
+			this->iterationsNumberVal->Location = System::Drawing::Point(107, 22);
+			this->iterationsNumberVal->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->iterationsNumberVal->Name = L"iterationsNumberVal";
-			this->iterationsNumberVal->Size = System::Drawing::Size(18, 20);
+			this->iterationsNumberVal->Size = System::Drawing::Size(13, 13);
 			this->iterationsNumberVal->TabIndex = 19;
 			this->iterationsNumberVal->Text = L"0";
 			// 
 			// elapsedTimeVal
 			// 
 			this->elapsedTimeVal->AutoSize = true;
-			this->elapsedTimeVal->Location = System::Drawing::Point(314, 34);
+			this->elapsedTimeVal->Location = System::Drawing::Point(247, 23);
+			this->elapsedTimeVal->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->elapsedTimeVal->Name = L"elapsedTimeVal";
-			this->elapsedTimeVal->Size = System::Drawing::Size(18, 20);
+			this->elapsedTimeVal->Size = System::Drawing::Size(13, 13);
 			this->elapsedTimeVal->TabIndex = 20;
 			this->elapsedTimeVal->Text = L"0";
 			// 
 			// pathLengthVal
 			// 
 			this->pathLengthVal->AutoSize = true;
-			this->pathLengthVal->Location = System::Drawing::Point(704, 34);
+			this->pathLengthVal->Location = System::Drawing::Point(478, 22);
+			this->pathLengthVal->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->pathLengthVal->Name = L"pathLengthVal";
-			this->pathLengthVal->Size = System::Drawing::Size(18, 20);
+			this->pathLengthVal->Size = System::Drawing::Size(13, 13);
 			this->pathLengthVal->TabIndex = 22;
 			this->pathLengthVal->Text = L"0";
 			// 
 			// pathLengthDesc
 			// 
 			this->pathLengthDesc->AutoSize = true;
-			this->pathLengthDesc->Location = System::Drawing::Point(389, 34);
+			this->pathLengthDesc->Location = System::Drawing::Point(290, 22);
+			this->pathLengthDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->pathLengthDesc->Name = L"pathLengthDesc";
-			this->pathLengthDesc->Size = System::Drawing::Size(309, 20);
+			this->pathLengthDesc->Size = System::Drawing::Size(181, 13);
 			this->pathLengthDesc->TabIndex = 21;
-			this->pathLengthDesc->Text = L"Äîâæèíà ïîòî÷íîãî íàéêðàùîãî øëÿõó:";
+			this->pathLengthDesc->Text = L"Ð”Ð»Ð¸Ð½Ð° Ñ‚ÐµÐºÑƒÑ‰ÐµÐ³Ð¾ Ð½Ð°Ð¸Ð»ÑƒÑ‡ÑˆÐµÐ³Ð¾ Ð¿ÑƒÑ‚Ð¸:";
 			// 
 			// controlsGroup
 			// 
@@ -266,86 +279,96 @@ namespace CourseWork {
 			this->controlsGroup->Controls->Add(this->btn_reset);
 			this->controlsGroup->Controls->Add(this->btn_continue);
 			this->controlsGroup->Controls->Add(this->btn_pause);
-			this->controlsGroup->Location = System::Drawing::Point(1099, 299);
+			this->controlsGroup->Location = System::Drawing::Point(733, 194);
+			this->controlsGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->controlsGroup->Name = L"controlsGroup";
-			this->controlsGroup->Size = System::Drawing::Size(250, 236);
+			this->controlsGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->controlsGroup->Size = System::Drawing::Size(167, 153);
 			this->controlsGroup->TabIndex = 23;
 			this->controlsGroup->TabStop = false;
-			this->controlsGroup->Text = L"Êîíòðîëü ïðîãðàìè";
+			this->controlsGroup->Text = L"ÐšÐ¾Ð½Ñ‚Ñ€Ð¾Ð»ÑŒ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹";
 			// 
 			// btn_algo_opts
 			// 
-			this->btn_algo_opts->Location = System::Drawing::Point(15, 166);
+			this->btn_algo_opts->Location = System::Drawing::Point(10, 108);
+			this->btn_algo_opts->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_algo_opts->Name = L"btn_algo_opts";
-			this->btn_algo_opts->Size = System::Drawing::Size(217, 49);
+			this->btn_algo_opts->Size = System::Drawing::Size(145, 32);
 			this->btn_algo_opts->TabIndex = 28;
-			this->btn_algo_opts->Text = L"Ïàðàìåòðè àëãîðèòìó";
+			this->btn_algo_opts->Text = L"ÐŸÐ°Ñ€Ð°Ð¼ÐµÑ‚Ñ€Ñ‹ Ð°Ð»Ð³Ð¾Ñ€Ð¸Ñ‚Ð¼Ð°";
 			this->btn_algo_opts->UseVisualStyleBackColor = true;
 			this->btn_algo_opts->Click += gcnew System::EventHandler(this, &MyForm::btn_algo_opts_Click);
 			// 
 			// btn_saveFile
 			// 
-			this->btn_saveFile->Location = System::Drawing::Point(13, 146);
+			this->btn_saveFile->Location = System::Drawing::Point(9, 95);
+			this->btn_saveFile->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_saveFile->Name = L"btn_saveFile";
-			this->btn_saveFile->Size = System::Drawing::Size(485, 49);
+			this->btn_saveFile->Size = System::Drawing::Size(323, 32);
 			this->btn_saveFile->TabIndex = 27;
-			this->btn_saveFile->Text = L"Çáåðåãòè ãðàô äî ôàéëó";
+			this->btn_saveFile->Text = L"Ð¡Ð¾Ñ…Ñ€Ð°Ð½Ð¸Ñ‚ÑŒ Ð³Ñ€Ð°Ñ„ Ð² Ñ„Ð°Ð¹Ð»";
 			this->btn_saveFile->UseVisualStyleBackColor = true;
 			this->btn_saveFile->Click += gcnew System::EventHandler(this, &MyForm::btn_saveFile_Click);
 			// 
 			// smallGraphField1
 			// 
-			this->smallGraphField1->Location = System::Drawing::Point(831, 35);
+			this->smallGraphField1->Location = System::Drawing::Point(554, 23);
+			this->smallGraphField1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->smallGraphField1->Name = L"smallGraphField1";
-			this->smallGraphField1->Size = System::Drawing::Size(250, 250);
+			this->smallGraphField1->Size = System::Drawing::Size(167, 162);
 			this->smallGraphField1->TabIndex = 29;
 			this->smallGraphField1->TabStop = false;
 			// 
 			// smallGraphField2
 			// 
-			this->smallGraphField2->Location = System::Drawing::Point(1099, 34);
+			this->smallGraphField2->Location = System::Drawing::Point(733, 22);
+			this->smallGraphField2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->smallGraphField2->Name = L"smallGraphField2";
-			this->smallGraphField2->Size = System::Drawing::Size(250, 250);
+			this->smallGraphField2->Size = System::Drawing::Size(167, 162);
 			this->smallGraphField2->TabIndex = 30;
 			this->smallGraphField2->TabStop = false;
 			// 
 			// mutationListBox
 			// 
 			this->mutationListBox->FormattingEnabled = true;
-			this->mutationListBox->ItemHeight = 20;
-			this->mutationListBox->Location = System::Drawing::Point(15, 30);
+			this->mutationListBox->Location = System::Drawing::Point(10, 19);
+			this->mutationListBox->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->mutationListBox->Name = L"mutationListBox";
-			this->mutationListBox->Size = System::Drawing::Size(217, 284);
+			this->mutationListBox->Size = System::Drawing::Size(146, 186);
 			this->mutationListBox->TabIndex = 31;
 			this->mutationListBox->DoubleClick += gcnew System::EventHandler(this, &MyForm::mutationListBox_DoubleClick);
 			// 
 			// mutationHistoryGroup
 			// 
 			this->mutationHistoryGroup->Controls->Add(this->mutationListBox);
-			this->mutationHistoryGroup->Location = System::Drawing::Point(831, 299);
+			this->mutationHistoryGroup->Location = System::Drawing::Point(554, 194);
+			this->mutationHistoryGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->mutationHistoryGroup->Name = L"mutationHistoryGroup";
-			this->mutationHistoryGroup->Size = System::Drawing::Size(250, 327);
+			this->mutationHistoryGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->mutationHistoryGroup->Size = System::Drawing::Size(167, 213);
 			this->mutationHistoryGroup->TabIndex = 32;
 			this->mutationHistoryGroup->TabStop = false;
-			this->mutationHistoryGroup->Text = L"²ñòîð³ÿ êðàùèõ ìóòàö³é";
+			this->mutationHistoryGroup->Text = L"Ð˜ÑÑ‚Ð¾Ñ€Ð¸Ñ Ð»ÑƒÑ‡ÑˆÐ¸Ñ… Ð¼ÑƒÑ‚Ð°Ñ†Ð¸Ð¹";
 			// 
 			// labelDescBigField
 			// 
 			this->labelDescBigField->AutoSize = true;
-			this->labelDescBigField->Location = System::Drawing::Point(12, 8);
+			this->labelDescBigField->Location = System::Drawing::Point(8, 5);
+			this->labelDescBigField->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labelDescBigField->Name = L"labelDescBigField";
-			this->labelDescBigField->Size = System::Drawing::Size(133, 20);
+			this->labelDescBigField->Size = System::Drawing::Size(91, 13);
 			this->labelDescBigField->TabIndex = 33;
-			this->labelDescBigField->Text = L"Âåðøèíè ãðàôó:";
+			this->labelDescBigField->Text = L"Ð’ÐµÑ€ÑˆÐ¸Ð½Ñ‹ Ð³Ñ€Ð°Ñ„Ð°:";
 			// 
 			// labelDescSmallFields
 			// 
 			this->labelDescSmallFields->AutoSize = true;
-			this->labelDescSmallFields->Location = System::Drawing::Point(827, 8);
+			this->labelDescSmallFields->Location = System::Drawing::Point(551, 5);
+			this->labelDescSmallFields->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labelDescSmallFields->Name = L"labelDescSmallFields";
-			this->labelDescSmallFields->Size = System::Drawing::Size(275, 20);
+			this->labelDescSmallFields->Size = System::Drawing::Size(171, 13);
 			this->labelDescSmallFields->TabIndex = 34;
-			this->labelDescSmallFields->Text = L"Áàòüêè íàéêðàùîãî ïðåäñòàâíèêà:";
+			this->labelDescSmallFields->Text = L"ÐŸÑ€ÐµÐ´ÐºÐ¸ Ð»ÑƒÑ‡ÑˆÐµÐ³Ð¾ Ð¿Ñ€ÐµÐ´ÑÑ‚Ð°Ð²Ð¸Ñ‚ÐµÐ»Ñ:";
 			// 
 			// infoGroup
 			// 
@@ -355,20 +378,23 @@ namespace CourseWork {
 			this->infoGroup->Controls->Add(this->iterationsNumberVal);
 			this->infoGroup->Controls->Add(this->elapsedTimeDesc);
 			this->infoGroup->Controls->Add(this->iterationsNumberDesc);
-			this->infoGroup->Location = System::Drawing::Point(16, 844);
+			this->infoGroup->Location = System::Drawing::Point(11, 549);
+			this->infoGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->infoGroup->Name = L"infoGroup";
-			this->infoGroup->Size = System::Drawing::Size(800, 67);
+			this->infoGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->infoGroup->Size = System::Drawing::Size(533, 44);
 			this->infoGroup->TabIndex = 35;
 			this->infoGroup->TabStop = false;
-			this->infoGroup->Text = L"²íôîðìàö³ÿ ïðî ðîáîòó ïðîãðàìè";
+			this->infoGroup->Text = L"Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¿Ñ€Ð¾ Ñ€Ð°Ð±Ð¾Ñ‚Ñƒ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹";
 			// 
 			// btn_returnToMain
 			// 
-			this->btn_returnToMain->Location = System::Drawing::Point(833, 852);
+			this->btn_returnToMain->Location = System::Drawing::Point(555, 554);
+			this->btn_returnToMain->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->btn_returnToMain->Name = L"btn_returnToMain";
-			this->btn_returnToMain->Size = System::Drawing::Size(516, 59);
+			this->btn_returnToMain->Size = System::Drawing::Size(344, 38);
 			this->btn_returnToMain->TabIndex = 36;
-			this->btn_returnToMain->Text = L"Ïîâåðíóòñÿ äî ãîëîâíîãî ìåíþ";
+			this->btn_returnToMain->Text = L"Ð’ÐµÑ€Ð½ÑƒÑ‚ÑÑ Ð² Ð³Ð»Ð°Ð²Ð½Ð¾Ðµ Ð¼ÐµÐ½ÑŽ";
 			this->btn_returnToMain->UseVisualStyleBackColor = true;
 			this->btn_returnToMain->Click += gcnew System::EventHandler(this, &MyForm::btn_returnToMain_Click);
 			// 
@@ -377,18 +403,20 @@ namespace CourseWork {
 			this->workWithGraphGroup->Controls->Add(this->btn_saveFile);
 			this->workWithGraphGroup->Controls->Add(this->btn_openFile);
 			this->workWithGraphGroup->Controls->Add(this->btn_clear);
-			this->workWithGraphGroup->Location = System::Drawing::Point(833, 632);
+			this->workWithGraphGroup->Location = System::Drawing::Point(555, 411);
+			this->workWithGraphGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->workWithGraphGroup->Name = L"workWithGraphGroup";
-			this->workWithGraphGroup->Size = System::Drawing::Size(516, 207);
+			this->workWithGraphGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->workWithGraphGroup->Size = System::Drawing::Size(344, 135);
 			this->workWithGraphGroup->TabIndex = 37;
 			this->workWithGraphGroup->TabStop = false;
-			this->workWithGraphGroup->Text = L"Ðîáîòà ç ãðàôîì";
+			this->workWithGraphGroup->Text = L"Ð Ð°Ð±Ð¾Ñ‚Ð° Ñ Ð³Ñ€Ð°Ñ„Ð¾Ð¼";
 			// 
 			// MyForm
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1337, 892);
+			this->ClientSize = System::Drawing::Size(889, 609);
 			this->ControlBox = false;
 			this->Controls->Add(this->workWithGraphGroup);
 			this->Controls->Add(this->btn_returnToMain);
@@ -401,11 +429,12 @@ namespace CourseWork {
 			this->Controls->Add(this->controlsGroup);
 			this->Controls->Add(this->bigGraphField);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->MaximizeBox = false;
 			this->Name = L"MyForm";
 			this->ShowIcon = false;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Âèð³øåííÿ çàäà÷³ êîì³âîÿæåðà";
+			this->Text = L"Ð ÐµÑˆÐµÐ½Ð¸Ðµ Ð·Ð°Ð´Ð°Ñ‡Ð¸ ÐºÐ¾Ð¼Ð¼Ð¸Ð²Ð¾ÑÐ¶ÐµÑ€Ð°";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->bigGraphField))->EndInit();
 			this->controlsGroup->ResumeLayout(false);
@@ -522,7 +551,7 @@ namespace CourseWork {
 		individualsNumV = Convert::ToInt32(algoOptions->individNum->Value);
 
 		if (problem->nodes.size() < 10) {
-			MessageBox::Show("Ãðàô ïîâèíåí ì³ñòèòè õî÷à á 10 âåðøèí", "Notification", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
+			MessageBox::Show(L"Ð“Ñ€Ð°Ñ„ Ð´Ð¾Ð»Ð¶ÐµÐ½ ÑÐ¾Ð´ÐµÑ€Ð¶Ð°Ñ‚ÑŒ Ñ…Ð¾Ñ‚Ñ Ð±Ñ‹ 10 Ð²ÐµÑ€ÑˆÐ¸Ð½", "Notification", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
 			return;
 		}
 
@@ -634,7 +663,7 @@ namespace CourseWork {
 
 		if (getIteration.gotBetter) {
 			mutationList->push_back(getIteration);
-			mutationListBox->Items->Add(" " + Convert::ToString(iterationsCount) + "  ³òåðàö³ÿ");
+			mutationListBox->Items->Add(" " + Convert::ToString(iterationsCount) + L"  Ð¸Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ñ");
 
 			Graphics ^ g2 = clearWithBorder(smallGraphField1);
 			drawEdges(g2, getIteration.par1, getIteration.diff1, smallGraphField1->Width, 1);
