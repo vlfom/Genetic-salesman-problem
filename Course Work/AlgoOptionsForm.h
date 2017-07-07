@@ -111,7 +111,7 @@ namespace CourseWork {
 			this->startOptionsGroup->Size = System::Drawing::Size(182, 73);
 			this->startOptionsGroup->TabIndex = 29;
 			this->startOptionsGroup->TabStop = false;
-			this->startOptionsGroup->Text = L"Начальные условия";
+			this->startOptionsGroup->Text = L"Start conditions";
 			// 
 			// individNumDesc
 			// 
@@ -119,9 +119,9 @@ namespace CourseWork {
 			this->individNumDesc->Location = System::Drawing::Point(10, 23);
 			this->individNumDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->individNumDesc->Name = L"individNumDesc";
-			this->individNumDesc->Size = System::Drawing::Size(151, 13);
+			this->individNumDesc->Size = System::Drawing::Size(131, 13);
 			this->individNumDesc->TabIndex = 16;
-			this->individNumDesc->Text = L"Количество представителей";
+			this->individNumDesc->Text = L"Number of representatives";
 			// 
 			// individNum
 			// 
@@ -141,9 +141,9 @@ namespace CourseWork {
 			this->mutationProbDesc->Location = System::Drawing::Point(11, 23);
 			this->mutationProbDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->mutationProbDesc->Name = L"mutationProbDesc";
-			this->mutationProbDesc->Size = System::Drawing::Size(134, 13);
+			this->mutationProbDesc->Size = System::Drawing::Size(115, 13);
 			this->mutationProbDesc->TabIndex = 26;
-			this->mutationProbDesc->Text = L"Вероятность мутации (%)";
+			this->mutationProbDesc->Text = L"Mutation probability (%)";
 			// 
 			// mutationProb
 			// 
@@ -169,7 +169,7 @@ namespace CourseWork {
 			this->breedingGroup->Size = System::Drawing::Size(159, 98);
 			this->breedingGroup->TabIndex = 17;
 			this->breedingGroup->TabStop = false;
-			this->breedingGroup->Text = L"Приоритет алгоритмов скрещивания";
+			this->breedingGroup->Text = L"Priority of crossover algorithms";
 			// 
 			// breedingNum3Desc
 			// 
@@ -245,12 +245,12 @@ namespace CourseWork {
 			this->mutationGroup->Size = System::Drawing::Size(159, 127);
 			this->mutationGroup->TabIndex = 16;
 			this->mutationGroup->TabStop = false;
-			this->mutationGroup->Text = L"Приоритет алгоритмов мутации";
+			this->mutationGroup->Text = L"Priority of mutation algorithms";
 			// 
 			// mutationNum4Desc
 			// 
 			this->mutationNum4Desc->AutoSize = true;
-			this->mutationNum4Desc->Location = System::Drawing::Point(12, 97);
+			this->mutationNum4Desc->Location = System::Drawing::Point(12, 91);
 			this->mutationNum4Desc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->mutationNum4Desc->Name = L"mutationNum4Desc";
 			this->mutationNum4Desc->Size = System::Drawing::Size(33, 13);
@@ -260,7 +260,7 @@ namespace CourseWork {
 			// mutationNum3Desc
 			// 
 			this->mutationNum3Desc->AutoSize = true;
-			this->mutationNum3Desc->Location = System::Drawing::Point(12, 76);
+			this->mutationNum3Desc->Location = System::Drawing::Point(12, 70);
 			this->mutationNum3Desc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->mutationNum3Desc->Name = L"mutationNum3Desc";
 			this->mutationNum3Desc->Size = System::Drawing::Size(33, 13);
@@ -270,7 +270,7 @@ namespace CourseWork {
 			// mutationNum2Desc
 			// 
 			this->mutationNum2Desc->AutoSize = true;
-			this->mutationNum2Desc->Location = System::Drawing::Point(12, 55);
+			this->mutationNum2Desc->Location = System::Drawing::Point(12, 49);
 			this->mutationNum2Desc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->mutationNum2Desc->Name = L"mutationNum2Desc";
 			this->mutationNum2Desc->Size = System::Drawing::Size(33, 13);
@@ -280,7 +280,7 @@ namespace CourseWork {
 			// mutationNum1Desc
 			// 
 			this->mutationNum1Desc->AutoSize = true;
-			this->mutationNum1Desc->Location = System::Drawing::Point(12, 34);
+			this->mutationNum1Desc->Location = System::Drawing::Point(12, 28);
 			this->mutationNum1Desc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->mutationNum1Desc->Name = L"mutationNum1Desc";
 			this->mutationNum1Desc->Size = System::Drawing::Size(33, 13);
@@ -289,7 +289,7 @@ namespace CourseWork {
 			// 
 			// mutationNum4
 			// 
-			this->mutationNum4->Location = System::Drawing::Point(49, 96);
+			this->mutationNum4->Location = System::Drawing::Point(49, 90);
 			this->mutationNum4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->mutationNum4->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 10, 0, 0, 0 });
 			this->mutationNum4->Name = L"mutationNum4";
@@ -298,7 +298,7 @@ namespace CourseWork {
 			// 
 			// mutationNum3
 			// 
-			this->mutationNum3->Location = System::Drawing::Point(49, 75);
+			this->mutationNum3->Location = System::Drawing::Point(49, 69);
 			this->mutationNum3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->mutationNum3->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 10, 0, 0, 0 });
 			this->mutationNum3->Name = L"mutationNum3";
@@ -307,7 +307,7 @@ namespace CourseWork {
 			// 
 			// mutationNum2
 			// 
-			this->mutationNum2->Location = System::Drawing::Point(49, 54);
+			this->mutationNum2->Location = System::Drawing::Point(49, 48);
 			this->mutationNum2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->mutationNum2->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 10, 0, 0, 0 });
 			this->mutationNum2->Name = L"mutationNum2";
@@ -316,7 +316,7 @@ namespace CourseWork {
 			// 
 			// mutationNum1
 			// 
-			this->mutationNum1->Location = System::Drawing::Point(49, 33);
+			this->mutationNum1->Location = System::Drawing::Point(49, 27);
 			this->mutationNum1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->mutationNum1->Maximum = System::Decimal(gcnew cli::array< System::Int32 >(4) { 10, 0, 0, 0 });
 			this->mutationNum1->Name = L"mutationNum1";
@@ -336,7 +336,7 @@ namespace CourseWork {
 			this->dynamicOptionsGroup->Size = System::Drawing::Size(356, 170);
 			this->dynamicOptionsGroup->TabIndex = 30;
 			this->dynamicOptionsGroup->TabStop = false;
-			this->dynamicOptionsGroup->Text = L"Параметры, которые можно менять во время работы алгоритма";
+			this->dynamicOptionsGroup->Text = L"Real-time parameters (can be changed during run)";
 			// 
 			// AlgoOptions
 			// 
@@ -351,7 +351,7 @@ namespace CourseWork {
 			this->MinimizeBox = false;
 			this->Name = L"AlgoOptions";
 			this->ShowIcon = false;
-			this->Text = L"AlgoOptions";
+			this->Text = L"Algorithm parameters";
 			this->startOptionsGroup->ResumeLayout(false);
 			this->startOptionsGroup->PerformLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->individNum))->EndInit();

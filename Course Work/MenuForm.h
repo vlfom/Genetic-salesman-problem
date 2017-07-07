@@ -41,6 +41,8 @@ namespace CourseWork {
 	private: System::Windows::Forms::Label^  label_sign1;
 	private: System::Windows::Forms::Label^  label_sign2;
 
+
+
 	private:
 		System::ComponentModel::Container ^components;
 
@@ -62,11 +64,11 @@ namespace CourseWork {
 			// 
 			this->btn_start->BackColor = System::Drawing::SystemColors::Menu;
 			this->btn_start->Location = System::Drawing::Point(76, 196);
-			this->btn_start->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_start->Margin = System::Windows::Forms::Padding(2);
 			this->btn_start->Name = L"btn_start";
 			this->btn_start->Size = System::Drawing::Size(233, 31);
 			this->btn_start->TabIndex = 0;
-			this->btn_start->Text = L"Старт";
+			this->btn_start->Text = L"Start";
 			this->btn_start->UseVisualStyleBackColor = false;
 			this->btn_start->Click += gcnew System::EventHandler(this, &MenuForm::btn_start_Click);
 			// 
@@ -74,11 +76,11 @@ namespace CourseWork {
 			// 
 			this->btn_about->BackColor = System::Drawing::SystemColors::Menu;
 			this->btn_about->Location = System::Drawing::Point(76, 230);
-			this->btn_about->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_about->Margin = System::Windows::Forms::Padding(2);
 			this->btn_about->Name = L"btn_about";
 			this->btn_about->Size = System::Drawing::Size(233, 31);
 			this->btn_about->TabIndex = 1;
-			this->btn_about->Text = L"Про программу";
+			this->btn_about->Text = L"About";
 			this->btn_about->UseVisualStyleBackColor = false;
 			this->btn_about->Click += gcnew System::EventHandler(this, &MenuForm::btn_about_Click);
 			// 
@@ -86,11 +88,11 @@ namespace CourseWork {
 			// 
 			this->btn_exit->BackColor = System::Drawing::SystemColors::Menu;
 			this->btn_exit->Location = System::Drawing::Point(76, 265);
-			this->btn_exit->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_exit->Margin = System::Windows::Forms::Padding(2);
 			this->btn_exit->Name = L"btn_exit";
 			this->btn_exit->Size = System::Drawing::Size(233, 31);
 			this->btn_exit->TabIndex = 2;
-			this->btn_exit->Text = L"Выход";
+			this->btn_exit->Text = L"Exit";
 			this->btn_exit->UseVisualStyleBackColor = false;
 			this->btn_exit->Click += gcnew System::EventHandler(this, &MenuForm::btn_exit_Click);
 			// 
@@ -101,13 +103,13 @@ namespace CourseWork {
 			this->label_desc1->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label_desc1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label_desc1->Location = System::Drawing::Point(154, 118);
+			this->label_desc1->Location = System::Drawing::Point(152, 118);
 			this->label_desc1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label_desc1->Name = L"label_desc1";
-			this->label_desc1->Padding = System::Windows::Forms::Padding(1, 1, 1, 1);
-			this->label_desc1->Size = System::Drawing::Size(72, 21);
+			this->label_desc1->Padding = System::Windows::Forms::Padding(1);
+			this->label_desc1->Size = System::Drawing::Size(79, 21);
 			this->label_desc1->TabIndex = 3;
-			this->label_desc1->Text = L"Решение";
+			this->label_desc1->Text = L"Solution to";
 			// 
 			// label_desc2
 			// 
@@ -116,50 +118,50 @@ namespace CourseWork {
 			this->label_desc2->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->label_desc2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label_desc2->Location = System::Drawing::Point(81, 138);
+			this->label_desc2->Location = System::Drawing::Point(64, 138);
 			this->label_desc2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label_desc2->Name = L"label_desc2";
-			this->label_desc2->Padding = System::Windows::Forms::Padding(3, 3, 3, 3);
-			this->label_desc2->Size = System::Drawing::Size(227, 32);
+			this->label_desc2->Padding = System::Windows::Forms::Padding(3);
+			this->label_desc2->Size = System::Drawing::Size(260, 32);
 			this->label_desc2->TabIndex = 4;
-			this->label_desc2->Text = L"Задачи Коммивояжера";
+			this->label_desc2->Text = L"Traveling Salesman Problem";
 			// 
 			// label_desc3
 			// 
 			this->label_desc3->AutoSize = true;
 			this->label_desc3->BackColor = System::Drawing::Color::White;
 			this->label_desc3->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
-			this->label_desc3->Location = System::Drawing::Point(102, 169);
+			this->label_desc3->Location = System::Drawing::Point(104, 169);
 			this->label_desc3->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label_desc3->Name = L"label_desc3";
 			this->label_desc3->Padding = System::Windows::Forms::Padding(2, 3, 1, 3);
-			this->label_desc3->Size = System::Drawing::Size(191, 21);
+			this->label_desc3->Size = System::Drawing::Size(176, 21);
 			this->label_desc3->TabIndex = 5;
-			this->label_desc3->Text = L"методом генетических алгоритмов";
+			this->label_desc3->Text = L"using Genetic Algorithms approach";
 			// 
 			// label_sign1
 			// 
 			this->label_sign1->AutoSize = true;
-			this->label_sign1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label_sign1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label_sign1->Location = System::Drawing::Point(247, 14);
+			this->label_sign1->Location = System::Drawing::Point(266, 9);
 			this->label_sign1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label_sign1->Name = L"label_sign1";
-			this->label_sign1->Size = System::Drawing::Size(79, 17);
+			this->label_sign1->Size = System::Drawing::Size(95, 15);
 			this->label_sign1->TabIndex = 6;
-			this->label_sign1->Text = L"Выполнил:";
+			this->label_sign1->Text = L"Implemented by";
 			// 
 			// label_sign2
 			// 
 			this->label_sign2->AutoSize = true;
-			this->label_sign2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 8, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label_sign2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label_sign2->Location = System::Drawing::Point(256, 33);
+			this->label_sign2->Location = System::Drawing::Point(247, 26);
 			this->label_sign2->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label_sign2->Name = L"label_sign2";
-			this->label_sign2->Size = System::Drawing::Size(110, 39);
+			this->label_sign2->Size = System::Drawing::Size(117, 16);
 			this->label_sign2->TabIndex = 7;
-			this->label_sign2->Text = L"студент 1ого курса\r\nгруппы ИП-42\r\nФоменко Владимир";
+			this->label_sign2->Text = L"Vladimir Fomenko";
 			// 
 			// MenuForm
 			// 
@@ -178,13 +180,13 @@ namespace CourseWork {
 			this->Controls->Add(this->btn_about);
 			this->Controls->Add(this->btn_start);
 			this->DoubleBuffered = true;
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->MaximizeBox = false;
 			this->MinimizeBox = false;
 			this->Name = L"MenuForm";
 			this->ShowIcon = false;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Меню";
+			this->Text = L"Menu";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -202,7 +204,7 @@ namespace CourseWork {
 	}
 
 	private: System::Void btn_about_Click(System::Object^  sender, System::EventArgs^  e) {
-		MessageBox::Show(L"Курсовая работа на тему\n\"Решение задачи коммивояжера\nметодом генетических алгоритмов\"", "Notification", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
+		MessageBox::Show(L"Course work on \n\"Solving TSP (Traveling Salesman Problem)\nusing Genetic Algorithms method\"", "Notification", MessageBoxButtons::OK, MessageBoxIcon::Asterisk);
 	}
 
 	private: System::Void btn_exit_Click(System::Object^  sender, System::EventArgs^  e) {

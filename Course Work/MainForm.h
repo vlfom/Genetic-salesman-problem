@@ -133,18 +133,18 @@ namespace CourseWork {
 			// btn_start
 			// 
 			this->btn_start->Location = System::Drawing::Point(10, 22);
-			this->btn_start->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_start->Margin = System::Windows::Forms::Padding(2);
 			this->btn_start->Name = L"btn_start";
 			this->btn_start->Size = System::Drawing::Size(145, 32);
 			this->btn_start->TabIndex = 0;
-			this->btn_start->Text = L"Начать поиск";
+			this->btn_start->Text = L"Start solving";
 			this->btn_start->UseVisualStyleBackColor = true;
 			this->btn_start->Click += gcnew System::EventHandler(this, &MyForm::btn_start_Click);
 			// 
 			// bigGraphField
 			// 
 			this->bigGraphField->Location = System::Drawing::Point(11, 23);
-			this->bigGraphField->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->bigGraphField->Margin = System::Windows::Forms::Padding(2);
 			this->bigGraphField->Name = L"bigGraphField";
 			this->bigGraphField->Size = System::Drawing::Size(533, 520);
 			this->bigGraphField->TabIndex = 1;
@@ -154,11 +154,11 @@ namespace CourseWork {
 			// btn_reset
 			// 
 			this->btn_reset->Location = System::Drawing::Point(10, 58);
-			this->btn_reset->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_reset->Margin = System::Windows::Forms::Padding(2);
 			this->btn_reset->Name = L"btn_reset";
 			this->btn_reset->Size = System::Drawing::Size(145, 32);
 			this->btn_reset->TabIndex = 2;
-			this->btn_reset->Text = L"Завершить поиск";
+			this->btn_reset->Text = L"Stop solving";
 			this->btn_reset->UseVisualStyleBackColor = true;
 			this->btn_reset->Click += gcnew System::EventHandler(this, &MyForm::btn_reset_Click);
 			// 
@@ -169,33 +169,33 @@ namespace CourseWork {
 			// btn_openFile
 			// 
 			this->btn_openFile->Location = System::Drawing::Point(9, 59);
-			this->btn_openFile->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_openFile->Margin = System::Windows::Forms::Padding(2);
 			this->btn_openFile->Name = L"btn_openFile";
 			this->btn_openFile->Size = System::Drawing::Size(323, 32);
 			this->btn_openFile->TabIndex = 3;
-			this->btn_openFile->Text = L"Открыть граф из файла";
+			this->btn_openFile->Text = L"Open graph from file";
 			this->btn_openFile->UseVisualStyleBackColor = true;
 			this->btn_openFile->Click += gcnew System::EventHandler(this, &MyForm::btn_openFile_Click);
 			// 
 			// btn_clear
 			// 
 			this->btn_clear->Location = System::Drawing::Point(9, 20);
-			this->btn_clear->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_clear->Margin = System::Windows::Forms::Padding(2);
 			this->btn_clear->Name = L"btn_clear";
 			this->btn_clear->Size = System::Drawing::Size(323, 32);
 			this->btn_clear->TabIndex = 4;
-			this->btn_clear->Text = L"Очистить поле";
+			this->btn_clear->Text = L"Clear field";
 			this->btn_clear->UseVisualStyleBackColor = true;
 			this->btn_clear->Click += gcnew System::EventHandler(this, &MyForm::btn_clear_Click);
 			// 
 			// btn_pause
 			// 
 			this->btn_pause->Location = System::Drawing::Point(10, 21);
-			this->btn_pause->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_pause->Margin = System::Windows::Forms::Padding(2);
 			this->btn_pause->Name = L"btn_pause";
 			this->btn_pause->Size = System::Drawing::Size(145, 32);
 			this->btn_pause->TabIndex = 5;
-			this->btn_pause->Text = L"Пауза";
+			this->btn_pause->Text = L"Pause";
 			this->btn_pause->UseVisualStyleBackColor = true;
 			this->btn_pause->Visible = false;
 			this->btn_pause->Click += gcnew System::EventHandler(this, &MyForm::btn_pause_Click);
@@ -203,11 +203,11 @@ namespace CourseWork {
 			// btn_continue
 			// 
 			this->btn_continue->Location = System::Drawing::Point(10, 21);
-			this->btn_continue->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_continue->Margin = System::Windows::Forms::Padding(2);
 			this->btn_continue->Name = L"btn_continue";
 			this->btn_continue->Size = System::Drawing::Size(145, 32);
 			this->btn_continue->TabIndex = 6;
-			this->btn_continue->Text = L"Продолжить поиск";
+			this->btn_continue->Text = L"Continue solving";
 			this->btn_continue->UseVisualStyleBackColor = true;
 			this->btn_continue->Visible = false;
 			this->btn_continue->Click += gcnew System::EventHandler(this, &MyForm::btn_continue_Click);
@@ -215,27 +215,27 @@ namespace CourseWork {
 			// iterationsNumberDesc
 			// 
 			this->iterationsNumberDesc->AutoSize = true;
-			this->iterationsNumberDesc->Location = System::Drawing::Point(13, 22);
+			this->iterationsNumberDesc->Location = System::Drawing::Point(30, 22);
 			this->iterationsNumberDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->iterationsNumberDesc->Name = L"iterationsNumberDesc";
-			this->iterationsNumberDesc->Size = System::Drawing::Size(94, 13);
+			this->iterationsNumberDesc->Size = System::Drawing::Size(86, 13);
 			this->iterationsNumberDesc->TabIndex = 17;
-			this->iterationsNumberDesc->Text = L"Номер итерации:";
+			this->iterationsNumberDesc->Text = L"Iteration number:";
 			// 
 			// elapsedTimeDesc
 			// 
 			this->elapsedTimeDesc->AutoSize = true;
-			this->elapsedTimeDesc->Location = System::Drawing::Point(135, 22);
+			this->elapsedTimeDesc->Location = System::Drawing::Point(167, 22);
 			this->elapsedTimeDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->elapsedTimeDesc->Name = L"elapsedTimeDesc";
-			this->elapsedTimeDesc->Size = System::Drawing::Size(111, 13);
+			this->elapsedTimeDesc->Size = System::Drawing::Size(73, 13);
 			this->elapsedTimeDesc->TabIndex = 18;
-			this->elapsedTimeDesc->Text = L"Потраченное время:";
+			this->elapsedTimeDesc->Text = L"Time elapsed:";
 			// 
 			// iterationsNumberVal
 			// 
 			this->iterationsNumberVal->AutoSize = true;
-			this->iterationsNumberVal->Location = System::Drawing::Point(107, 22);
+			this->iterationsNumberVal->Location = System::Drawing::Point(117, 22);
 			this->iterationsNumberVal->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->iterationsNumberVal->Name = L"iterationsNumberVal";
 			this->iterationsNumberVal->Size = System::Drawing::Size(13, 13);
@@ -245,7 +245,7 @@ namespace CourseWork {
 			// elapsedTimeVal
 			// 
 			this->elapsedTimeVal->AutoSize = true;
-			this->elapsedTimeVal->Location = System::Drawing::Point(247, 23);
+			this->elapsedTimeVal->Location = System::Drawing::Point(242, 23);
 			this->elapsedTimeVal->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->elapsedTimeVal->Name = L"elapsedTimeVal";
 			this->elapsedTimeVal->Size = System::Drawing::Size(13, 13);
@@ -255,7 +255,7 @@ namespace CourseWork {
 			// pathLengthVal
 			// 
 			this->pathLengthVal->AutoSize = true;
-			this->pathLengthVal->Location = System::Drawing::Point(478, 22);
+			this->pathLengthVal->Location = System::Drawing::Point(449, 22);
 			this->pathLengthVal->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->pathLengthVal->Name = L"pathLengthVal";
 			this->pathLengthVal->Size = System::Drawing::Size(13, 13);
@@ -265,12 +265,12 @@ namespace CourseWork {
 			// pathLengthDesc
 			// 
 			this->pathLengthDesc->AutoSize = true;
-			this->pathLengthDesc->Location = System::Drawing::Point(290, 22);
+			this->pathLengthDesc->Location = System::Drawing::Point(306, 22);
 			this->pathLengthDesc->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->pathLengthDesc->Name = L"pathLengthDesc";
-			this->pathLengthDesc->Size = System::Drawing::Size(181, 13);
+			this->pathLengthDesc->Size = System::Drawing::Size(138, 13);
 			this->pathLengthDesc->TabIndex = 21;
-			this->pathLengthDesc->Text = L"Длина текущего наилучшего пути:";
+			this->pathLengthDesc->Text = L"Length of current best path:";
 			// 
 			// controlsGroup
 			// 
@@ -280,40 +280,40 @@ namespace CourseWork {
 			this->controlsGroup->Controls->Add(this->btn_continue);
 			this->controlsGroup->Controls->Add(this->btn_pause);
 			this->controlsGroup->Location = System::Drawing::Point(733, 194);
-			this->controlsGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->controlsGroup->Margin = System::Windows::Forms::Padding(2);
 			this->controlsGroup->Name = L"controlsGroup";
-			this->controlsGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->controlsGroup->Padding = System::Windows::Forms::Padding(2);
 			this->controlsGroup->Size = System::Drawing::Size(167, 153);
 			this->controlsGroup->TabIndex = 23;
 			this->controlsGroup->TabStop = false;
-			this->controlsGroup->Text = L"Контроль программы";
+			this->controlsGroup->Text = L"Controls panel";
 			// 
 			// btn_algo_opts
 			// 
 			this->btn_algo_opts->Location = System::Drawing::Point(10, 108);
-			this->btn_algo_opts->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_algo_opts->Margin = System::Windows::Forms::Padding(2);
 			this->btn_algo_opts->Name = L"btn_algo_opts";
 			this->btn_algo_opts->Size = System::Drawing::Size(145, 32);
 			this->btn_algo_opts->TabIndex = 28;
-			this->btn_algo_opts->Text = L"Параметры алгоритма";
+			this->btn_algo_opts->Text = L"Algorithm parameters";
 			this->btn_algo_opts->UseVisualStyleBackColor = true;
 			this->btn_algo_opts->Click += gcnew System::EventHandler(this, &MyForm::btn_algo_opts_Click);
 			// 
 			// btn_saveFile
 			// 
 			this->btn_saveFile->Location = System::Drawing::Point(9, 95);
-			this->btn_saveFile->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_saveFile->Margin = System::Windows::Forms::Padding(2);
 			this->btn_saveFile->Name = L"btn_saveFile";
 			this->btn_saveFile->Size = System::Drawing::Size(323, 32);
 			this->btn_saveFile->TabIndex = 27;
-			this->btn_saveFile->Text = L"Сохранить граф в файл";
+			this->btn_saveFile->Text = L"Save graph to file";
 			this->btn_saveFile->UseVisualStyleBackColor = true;
 			this->btn_saveFile->Click += gcnew System::EventHandler(this, &MyForm::btn_saveFile_Click);
 			// 
 			// smallGraphField1
 			// 
 			this->smallGraphField1->Location = System::Drawing::Point(554, 23);
-			this->smallGraphField1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->smallGraphField1->Margin = System::Windows::Forms::Padding(2);
 			this->smallGraphField1->Name = L"smallGraphField1";
 			this->smallGraphField1->Size = System::Drawing::Size(167, 162);
 			this->smallGraphField1->TabIndex = 29;
@@ -322,7 +322,7 @@ namespace CourseWork {
 			// smallGraphField2
 			// 
 			this->smallGraphField2->Location = System::Drawing::Point(733, 22);
-			this->smallGraphField2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->smallGraphField2->Margin = System::Windows::Forms::Padding(2);
 			this->smallGraphField2->Name = L"smallGraphField2";
 			this->smallGraphField2->Size = System::Drawing::Size(167, 162);
 			this->smallGraphField2->TabIndex = 30;
@@ -332,7 +332,7 @@ namespace CourseWork {
 			// 
 			this->mutationListBox->FormattingEnabled = true;
 			this->mutationListBox->Location = System::Drawing::Point(10, 19);
-			this->mutationListBox->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->mutationListBox->Margin = System::Windows::Forms::Padding(2);
 			this->mutationListBox->Name = L"mutationListBox";
 			this->mutationListBox->Size = System::Drawing::Size(146, 186);
 			this->mutationListBox->TabIndex = 31;
@@ -342,13 +342,13 @@ namespace CourseWork {
 			// 
 			this->mutationHistoryGroup->Controls->Add(this->mutationListBox);
 			this->mutationHistoryGroup->Location = System::Drawing::Point(554, 194);
-			this->mutationHistoryGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->mutationHistoryGroup->Margin = System::Windows::Forms::Padding(2);
 			this->mutationHistoryGroup->Name = L"mutationHistoryGroup";
-			this->mutationHistoryGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->mutationHistoryGroup->Padding = System::Windows::Forms::Padding(2);
 			this->mutationHistoryGroup->Size = System::Drawing::Size(167, 213);
 			this->mutationHistoryGroup->TabIndex = 32;
 			this->mutationHistoryGroup->TabStop = false;
-			this->mutationHistoryGroup->Text = L"История лучших мутаций";
+			this->mutationHistoryGroup->Text = L"History of best mutations";
 			// 
 			// labelDescBigField
 			// 
@@ -356,9 +356,9 @@ namespace CourseWork {
 			this->labelDescBigField->Location = System::Drawing::Point(8, 5);
 			this->labelDescBigField->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labelDescBigField->Name = L"labelDescBigField";
-			this->labelDescBigField->Size = System::Drawing::Size(91, 13);
+			this->labelDescBigField->Size = System::Drawing::Size(58, 13);
 			this->labelDescBigField->TabIndex = 33;
-			this->labelDescBigField->Text = L"Вершины графа:";
+			this->labelDescBigField->Text = L"Graph field";
 			// 
 			// labelDescSmallFields
 			// 
@@ -366,9 +366,9 @@ namespace CourseWork {
 			this->labelDescSmallFields->Location = System::Drawing::Point(551, 5);
 			this->labelDescSmallFields->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->labelDescSmallFields->Name = L"labelDescSmallFields";
-			this->labelDescSmallFields->Size = System::Drawing::Size(171, 13);
+			this->labelDescSmallFields->Size = System::Drawing::Size(159, 13);
 			this->labelDescSmallFields->TabIndex = 34;
-			this->labelDescSmallFields->Text = L"Предки лучшего представителя:";
+			this->labelDescSmallFields->Text = L"Ancestors of best representative";
 			// 
 			// infoGroup
 			// 
@@ -379,22 +379,22 @@ namespace CourseWork {
 			this->infoGroup->Controls->Add(this->elapsedTimeDesc);
 			this->infoGroup->Controls->Add(this->iterationsNumberDesc);
 			this->infoGroup->Location = System::Drawing::Point(11, 549);
-			this->infoGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->infoGroup->Margin = System::Windows::Forms::Padding(2);
 			this->infoGroup->Name = L"infoGroup";
-			this->infoGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->infoGroup->Padding = System::Windows::Forms::Padding(2);
 			this->infoGroup->Size = System::Drawing::Size(533, 44);
 			this->infoGroup->TabIndex = 35;
 			this->infoGroup->TabStop = false;
-			this->infoGroup->Text = L"Информация про работу программы";
+			this->infoGroup->Text = L"Solution status";
 			// 
 			// btn_returnToMain
 			// 
 			this->btn_returnToMain->Location = System::Drawing::Point(555, 554);
-			this->btn_returnToMain->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->btn_returnToMain->Margin = System::Windows::Forms::Padding(2);
 			this->btn_returnToMain->Name = L"btn_returnToMain";
 			this->btn_returnToMain->Size = System::Drawing::Size(344, 38);
 			this->btn_returnToMain->TabIndex = 36;
-			this->btn_returnToMain->Text = L"Вернутся в главное меню";
+			this->btn_returnToMain->Text = L"Return to the main menu";
 			this->btn_returnToMain->UseVisualStyleBackColor = true;
 			this->btn_returnToMain->Click += gcnew System::EventHandler(this, &MyForm::btn_returnToMain_Click);
 			// 
@@ -404,19 +404,19 @@ namespace CourseWork {
 			this->workWithGraphGroup->Controls->Add(this->btn_openFile);
 			this->workWithGraphGroup->Controls->Add(this->btn_clear);
 			this->workWithGraphGroup->Location = System::Drawing::Point(555, 411);
-			this->workWithGraphGroup->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->workWithGraphGroup->Margin = System::Windows::Forms::Padding(2);
 			this->workWithGraphGroup->Name = L"workWithGraphGroup";
-			this->workWithGraphGroup->Padding = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->workWithGraphGroup->Padding = System::Windows::Forms::Padding(2);
 			this->workWithGraphGroup->Size = System::Drawing::Size(344, 135);
 			this->workWithGraphGroup->TabIndex = 37;
 			this->workWithGraphGroup->TabStop = false;
-			this->workWithGraphGroup->Text = L"Работа с графом";
+			this->workWithGraphGroup->Text = L"Field controls";
 			// 
 			// MyForm
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(889, 609);
+			this->ClientSize = System::Drawing::Size(881, 601);
 			this->ControlBox = false;
 			this->Controls->Add(this->workWithGraphGroup);
 			this->Controls->Add(this->btn_returnToMain);
@@ -429,12 +429,12 @@ namespace CourseWork {
 			this->Controls->Add(this->controlsGroup);
 			this->Controls->Add(this->bigGraphField);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
-			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
+			this->Margin = System::Windows::Forms::Padding(2);
 			this->MaximizeBox = false;
 			this->Name = L"MyForm";
 			this->ShowIcon = false;
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Решение задачи коммивояжера";
+			this->Text = L"Traveling Salesman Problem";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->bigGraphField))->EndInit();
 			this->controlsGroup->ResumeLayout(false);
@@ -663,7 +663,7 @@ namespace CourseWork {
 
 		if (getIteration.gotBetter) {
 			mutationList->push_back(getIteration);
-			mutationListBox->Items->Add(" " + Convert::ToString(iterationsCount) + L"  итерация");
+			mutationListBox->Items->Add(" " + Convert::ToString(iterationsCount) + L"  iteration");
 
 			Graphics ^ g2 = clearWithBorder(smallGraphField1);
 			drawEdges(g2, getIteration.par1, getIteration.diff1, smallGraphField1->Width, 1);
